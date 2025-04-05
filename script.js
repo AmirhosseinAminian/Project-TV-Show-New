@@ -57,7 +57,6 @@ async function fetchEpisodes(showId) {
 
 function displayEpisodes(showId, episodes) {
   currentShowId = showId;
-  document.getElementById("backToShows").style.display = "block";
   
   const rootElem = document.getElementById("root");
   rootElem.innerHTML = `
